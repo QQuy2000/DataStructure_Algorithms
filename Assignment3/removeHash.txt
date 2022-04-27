@@ -1,0 +1,100 @@
+template<class K, class V>
+V XHashMap<K,V>::remove(K key,void (*deleteKeyInMap)(K)){
+    //YOUR CODE HERE
+    int index = hashCode(key, capacity);
+    Entry* entry = table[index];
+    while(entry != 0){
+        if(keyEQ(entry->key,key)){
+            count -= 1;
+            //remove head
+            if(entry->prev == 0){
+                Entry* newHead = entry->next;
+                if(newHead != 0) newHead->prev = 0;
+                table[index] = newHead;
+                entry->next = 0;
+
+                V value = entry->value;
+                if(deleteKeyInMap != 0) deleteKeyInMap(entry->key);
+                delete entry;
+                return value;
+            }
+            //remove tail
+            else if(entry->next == 0){
+                Entry* prev = entry->prev;
+                prev->next = 0;
+                entry->prev = 0;
+
+                V value = entry->value;
+                if(deleteKeyInMap != 0) deleteKeyInMap(entry->key);
+                delete entry;
+                return value;
+            }
+            // remove internal node(between head and tail)
+            else {
+                entry->prev->next = entry->next;
+                entry->next->prev = entry->prev;
+                entry->prev = 0;
+                entry->next = 0;
+
+                V value = entry->value;
+                if(deleteKeyInMap != 0) deleteKeyInMap(entry->key);
+                delete entry;
+                return value;
+            }
+        }
+        entry = entry->next; 
+    }
+    //IF key: not found
+    stringstream os;
+    os << "key (" << entry->key << ") is not found";
+    throw KeyNotFound(os.str());
+}
+
+template<class K, class V>
+bool XHashMap<K,V>::remove(K key, V value, void (*deleteKeyInMap)(K), void (*deleteValueInMap)(V)){
+    //YOUR CODE HERE
+    int index = hashCode(key, capacity);
+    Entry* entry = table[index];
+    while(entry != 0){
+        if(keyEQ(entry->key, key) && valueEQ(entry->value, value)){
+            count -= 1;
+            //remove head 
+            if(entry->prev == 0){
+                Entry* newHead = entry->next;
+                if(newHead != 0) newHead->prev = 0;
+                table[index] = newHead;
+                entry->next = 0;
+
+                if(deleteKeyInMap != 0) deleteKeyInMap(entry->key);
+                if(deleteValueInMap != 0) deleteValueInMap(entry->value);
+                delete entry;
+                return true;
+            }
+            //remove tail
+            else if(entry->next == 0){
+                Entry* prev = entry->prev;
+                prev->next = 0;
+                entry->prev = 0;
+
+                if(deleteKeyInMap != 0) deleteKeyInMap(entry->key);
+                if(deleteValueInMap != 0) deleteValueInMap(entry->value);
+                delete entry;
+                return true;
+            }
+            // remove internal node(between head and tail)
+            else {
+                entry->prev->next = entry->next;
+                entry->next->prev = entry->prev;
+                entry->prev = 0;
+                entry->next = 0;
+
+                if(deleteKeyInMap != 0) deleteKeyInMap(entry->key);
+                if(deleteValueInMap != 0) deleteValueInMap(entry->value);
+                delete entry;
+                return true; 
+            }
+        }
+        entry = entry->next; 
+    }
+    return false;
+}

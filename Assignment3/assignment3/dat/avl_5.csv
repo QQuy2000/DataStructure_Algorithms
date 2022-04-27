@@ -1,0 +1,8 @@
+item,ascending,descending,dfs,bfs,nlr,lrn,lnr,bfactor
+-484, -484, 365, -85, -85, -85, -139, -484, EH
+-85, -139, 359, -484, -484, -484, -484, -139, RH
+359, -85, -85, -139, 359, -139, 365, -85, RH
+365, 359, -139, 359, -139, 359, 359, 359, EMPTY
+-139, 365, -484, 365, 365, 365, -85, 365, EH
+None, None, None, None, None, None, None, None, EMPTY
+None, None, None, None, None, None, None, None, EH
