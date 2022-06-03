@@ -1,0 +1,583 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+
+# Make data base, printed on Fri Jun  3 16:15:25 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# makefile (from `nbproject/Makefile-variables.mk', line 14)
+CND_PACKAGE_DIR_Debug = dist/Debug/GNU-MacOSX/package
+# makefile (from `nbproject/Makefile-impl.mk', line 16)
+SUB_no = NO
+# environment
+LC_CTYPE = UTF-8
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/nguyenquocquy/Documents/203_Semester/203_Data Structures and Algorithms /1852704
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `nbproject/Makefile-impl.mk', line 34)
+ALLCONFS = Debug Release 
+# makefile (from `nbproject/private/Makefile-variables.mk', line 1)
+MAKEFILE_LIST :=  Makefile nbproject/Makefile-impl.mk nbproject/Makefile-variables.mk nbproject/private/Makefile-variables.mk
+# makefile (from `Makefile', line 49)
+CP = cp
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# makefile (from `nbproject/Makefile-impl.mk', line 22)
+CLEAN_SUBPROJECTS_NO = 
+# makefile (from `nbproject/Makefile-impl.mk', line 23)
+CLEAN_SUBPROJECTS = ${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
+# makefile (from `nbproject/Makefile-variables.mk', line 22)
+CND_PACKAGE_DIR_Release = dist/Release/GNU-Linux/package
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# makefile (from `nbproject/Makefile-impl.mk', line 31)
+CONF = ${DEFAULTCONF}
+# makefile (from `nbproject/Makefile-impl.mk', line 21)
+CLEAN_SUBPROJECTS_ = .clean-subprojects
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/8k/5094mzxn4ls8j2zf5tqj79200000gn/T/vscode-ipc-f4b802b0-0577-45e1-ab91-249c9f5be066.sock
+# environment
+VSCODE_CWD = /Users/nguyenquocquy/Documents/203_Semester/203_Data Structures and Algorithms /1852704
+# environment
+PATH = /usr/local/opt/mongodb-community@4.4/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Applications/Visual Studio Code.app/Contents/Resources/app/bin
+# makefile (from `Makefile', line 50)
+CCADMIN = CCadmin
+# makefile (from `nbproject/Makefile-variables.mk', line 8)
+CND_DISTDIR = dist
+# makefile (from `nbproject/Makefile-variables.mk', line 13)
+CND_ARTIFACT_PATH_Debug = dist/Debug/GNU-MacOSX/dsastudents_3
+# makefile (from `nbproject/Makefile-variables.mk', line 6)
+CND_BASEDIR = `pwd`
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.9yFU30O9OK/Listeners
+# automatic
+%F = $(notdir $%)
+# makefile (from `nbproject/Makefile-impl.mk', line 30)
+DEFAULTCONF = Debug
+# environment
+VSCODE_PIPE_LOGGING = true
+# makefile (from `nbproject/Makefile-variables.mk', line 21)
+CND_ARTIFACT_PATH_Release = dist/Release/GNU-Linux/dsastudents
+# environment
+PWD = /Users/nguyenquocquy/Documents/203_Semester/203_Data Structures and Algorithms /1852704
+# makefile (from `nbproject/Makefile-impl.mk', line 19)
+BUILD_SUBPROJECTS_NO = 
+# makefile (from `nbproject/Makefile-impl.mk', line 20)
+BUILD_SUBPROJECTS = ${BUILD_SUBPROJECTS_${SUBPROJECTS}}
+# makefile (from `nbproject/Makefile-impl.mk', line 18)
+BUILD_SUBPROJECTS_ = .build-subprojects
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /Users/nguyenquocquy
+# default
+MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/nguyenquocquy/Library/Application Support/Code/CachedData/57fd6d0195bb9b9d1b49f6da5db789060795de47
+# environment
+LOGNAME = nguyenquocquy
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# makefile (from `nbproject/Makefile-variables.mk', line 16)
+CND_PACKAGE_PATH_Debug = dist/Debug/GNU-MacOSX/package/dsastudents3.tar
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile (from `Makefile', line 48)
+MKDIR = mkdir
+# makefile (from `nbproject/Makefile-variables.mk', line 12)
+CND_ARTIFACT_NAME_Debug = dsastudents_3
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 3
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = nguyenquocquy
+# makefile
+.DEFAULT_GOAL := build
+# environment
+TERM_SESSION_ID = DE3D04BB-F4BB-4026-A256-C181AFFE3C53
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
+# makefile (from `nbproject/Makefile-variables.mk', line 24)
+CND_PACKAGE_PATH_Release = dist/Release/GNU-Linux/package/dsastudents.tar
+# environment
+TERM_PROGRAM = Apple_Terminal
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/8k/5094mzxn4ls8j2zf5tqj79200000gn/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/nguyenquocquy/Library/Application Support/Code/1.67.0-main.sock
+# makefile (from `nbproject/Makefile-variables.mk', line 20)
+CND_ARTIFACT_NAME_Release = dsastudents
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+TERM_PROGRAM_VERSION = 443
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.23152743.23152749.1F64FEEF-EC18-4C16-8B6D-BA16B9CD1B67
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from `nbproject/Makefile-variables.mk', line 11)
+CND_ARTIFACT_DIR_Debug = dist/Debug/GNU-MacOSX
+# automatic
++F = $(notdir $+)
+# makefile (from `nbproject/Makefile-variables.mk', line 7)
+CND_BUILDDIR = build
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# makefile (from `nbproject/Makefile-variables.mk', line 15)
+CND_PACKAGE_NAME_Debug = dsastudents3.tar
+# automatic
+<F = $(notdir $<)
+# makefile (from `nbproject/Makefile-variables.mk', line 10)
+CND_PLATFORM_Debug = GNU-MacOSX
+# makefile (from `nbproject/Makefile-impl.mk', line 27)
+PROJECTNAME = dsastudents 3
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# makefile (from `nbproject/Makefile-variables.mk', line 19)
+CND_ARTIFACT_DIR_Release = dist/Release/GNU-Linux
+# default
+.INCLUDE_DIRS = /usr/local/include
+# makefile (from `nbproject/Makefile-impl.mk', line 17)
+SUBPROJECTS = ${SUB_${SUB}}
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+TERM = xterm-256color
+# environment
+VSCODE_PID = 67840
+# makefile (from `nbproject/Makefile-variables.mk', line 23)
+CND_PACKAGE_NAME_Release = dsastudents.tar
+# makefile (from `nbproject/Makefile-variables.mk', line 18)
+CND_PLATFORM_Release = GNU-Linux
+# variable set hash-table stats:
+# Load=101/1024=10%, Rehash=0, Collisions=6/137=4%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777220, inode 23529964): 17 files, no impossibilities.
+
+# 17 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+nbproject/Makefile-variables.mk:
+#  Implicit rule search has been done.
+#  Last modified 2021-06-12 22:08:32
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+.build-tests-post: .build-tests-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.test-pre: build-tests
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.clean-pre:
+#  Implicit rule search has not been done.
+ 
+#  Modification time never checked.
+#  File has not been updated.
+
+all: .all-post
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/3=0%
+
+.PHONY:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.build-impl: .build-pre .validate-impl .depcheck-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `nbproject/Makefile-impl.mk', line 39):
+	@#echo "=> Running $@... Configuration=$(CONF)"
+	"${MAKE}" -f nbproject/Makefile-${CONF}.mk QMAKE=${QMAKE} SUBPROJECTS=${SUBPROJECTS} .build-conf
+	
+
+build-tests: .build-tests-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.all-pre:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+.build-post: .build-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-06-12 20:27:36
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+ROOT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+# makefile (from `nbproject/Makefile-variables.mk', line 29)
+# sh = test -f nbproject/private/Makefile-variables.mk || (mkdir -p nbproject/private && touch nbproject/private/Makefile-variables.mk)
+# variable set hash-table stats:
+# Load=1/32=3%, Rehash=0, Collisions=0/1=0%
+
+.depcheck-impl:
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := .depcheck-impl
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/11=9%
+#  commands to execute (from `nbproject/Makefile-impl.mk', line 77):
+	@echo "# This code depends on make tool being used" >.dep.inc
+	@if [ -n "${MAKE_VERSION}" ]; then \
+	echo "DEPFILES=\$$(wildcard \$$(addsuffix .d, \$${OBJECTFILES} \$${TESTOBJECTFILES}))" >>.dep.inc; \
+	echo "ifneq (\$${DEPFILES},)" >>.dep.inc; \
+	echo "include \$${DEPFILES}" >>.dep.inc; \
+	echo "endif" >>.dep.inc; \
+	else \
+	echo ".KEEP_STATE:" >>.dep.inc; \
+	echo ".KEEP_STATE_FILE:.make.state.\$${CONF}" >>.dep.inc; \
+	fi
+	
+
+test: .test-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.clobber-impl: .clobber-pre .depcheck-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `nbproject/Makefile-impl.mk', line 51):
+	@#echo "=> Running $@..."
+	for CONF in ${ALLCONFS}; \
+	do \
+	"${MAKE}" -f nbproject/Makefile-$${CONF}.mk QMAKE=${QMAKE} SUBPROJECTS=${SUBPROJECTS} .clean-conf; \
+	done
+	
+
+build: .build-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clobber: .clobber-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.build-tests-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.clobber-post: .clobber-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+help: .help-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+nbproject/private/Makefile-variables.mk:
+#  Implicit rule search has been done.
+#  Last modified 2021-06-12 20:27:34
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+nbproject/Makefile-impl.mk:
+#  Implicit rule search has been done.
+#  Last modified 2021-06-12 22:07:29
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+.help-impl: .help-pre
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `nbproject/Makefile-impl.mk', line 106):
+	@echo "This makefile supports the following configurations:"
+	@echo "    ${ALLCONFS}"
+	@echo ""
+	@echo "and the following targets:"
+	@echo "    build  (default target)"
+	@echo "    clean"
+	@echo "    clobber"
+	@echo "    all"
+	@echo "    help"
+	@echo ""
+	@echo "Makefile Usage:"
+	@echo "    make [CONF=<CONFIGURATION>] [SUB=no] build"
+	@echo "    make [CONF=<CONFIGURATION>] [SUB=no] clean"
+	@echo "    make [SUB=no] clobber"
+	@echo "    make [SUB=no] all"
+	@echo "    make help"
+	@echo ""
+	@echo "Target 'build' will build a specific configuration and, unless 'SUB=no',"
+	@echo "    also build subprojects."
+	@echo "Target 'clean' will clean a specific configuration and, unless 'SUB=no',"
+	@echo "    also clean subprojects."
+	@echo "Target 'clobber' will remove all built files from all configurations and,"
+	@echo "    unless 'SUB=no', also from subprojects."
+	@echo "Target 'all' will will build all configurations and, unless 'SUB=no',"
+	@echo "    also build subprojects."
+	@echo "Target 'help' prints this message."
+	@echo ""
+	
+
+.build-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.test-impl: .build-tests-impl .test-pre
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `nbproject/Makefile-impl.mk', line 72):
+	@#echo "=> Running $@... Configuration=$(CONF)"
+	"${MAKE}" -f nbproject/Makefile-${CONF}.mk SUBPROJECTS=${SUBPROJECTS} .test-conf
+	
+
+.clean-impl: .clean-pre .validate-impl .depcheck-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `nbproject/Makefile-impl.mk', line 45):
+	@#echo "=> Running $@... Configuration=$(CONF)"
+	"${MAKE}" -f nbproject/Makefile-${CONF}.mk QMAKE=${QMAKE} SUBPROJECTS=${SUBPROJECTS} .clean-conf
+	
+
+.help-post: .help-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean: .clean-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.test-post: .test-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.clean-post: .clean-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.clobber-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.validate-impl:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `nbproject/Makefile-impl.mk', line 90):
+	@if [ ! -f nbproject/Makefile-${CONF}.mk ]; \
+	then \
+	echo ""; \
+	echo "Error: can not find the makefile for configuration '${CONF}' in project ${PROJECTNAME}"; \
+	echo "See 'make help' for details."; \
+	echo "Current directory: " `pwd`; \
+	echo ""; \
+	fi
+	@if [ ! -f nbproject/Makefile-${CONF}.mk ]; \
+	then \
+	exit 1; \
+	fi
+	
+
+.all-impl: .all-pre .depcheck-impl
+#  Implicit rule search has not been done.
+ 
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/3=0%
+#  commands to execute (from `nbproject/Makefile-impl.mk', line 59):
+	@#echo "=> Running $@..."
+	for CONF in ${ALLCONFS}; \
+	do \
+	"${MAKE}" -f nbproject/Makefile-$${CONF}.mk QMAKE=${QMAKE} SUBPROJECTS=${SUBPROJECTS} .build-conf; \
+	done
+	
+
+.all-post: .all-impl
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/3=0%
+
+.build-tests-impl: .build-impl .build-tests-pre
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `nbproject/Makefile-impl.mk', line 67):
+	@#echo "=> Running $@... Configuration=$(CONF)"
+	"${MAKE}" -f nbproject/Makefile-${CONF}.mk SUBPROJECTS=${SUBPROJECTS} .build-tests-conf
+	
+
+.help-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=38/1024=4%, Rehash=0, Collisions=0/86=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 4
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 3988 / max = 3988 / min = 3988 / avg = 3988
+
+# Finished Make data base on Fri Jun  3 16:15:25 2022
+
+ 

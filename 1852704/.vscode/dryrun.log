@@ -1,0 +1,47 @@
+make: Entering directory `/Users/nguyenquocquy/Documents/203_Semester/203_Data Structures and Algorithms /1852704'
+if [ ! -f nbproject/Makefile-Debug.mk ]; \
+	then \
+	    echo ""; \
+	    echo "Error: can not find the makefile for configuration 'Debug' in project dsastudents 3"; \
+	    echo "See 'make help' for details."; \
+	    echo "Current directory: " `pwd`; \
+	    echo ""; \
+	fi
+if [ ! -f nbproject/Makefile-Debug.mk ]; \
+	then \
+	    exit 1; \
+	fi
+ 
+echo "# This code depends on make tool being used" >.dep.inc
+if [ -n "3.81" ]; then \
+	    echo "DEPFILES=\$(wildcard \$(addsuffix .d, \${OBJECTFILES} \${TESTOBJECTFILES}))" >>.dep.inc; \
+	    echo "ifneq (\${DEPFILES},)" >>.dep.inc; \
+	    echo "include \${DEPFILES}" >>.dep.inc; \
+	    echo "endif" >>.dep.inc; \
+	else \
+	    echo ".KEEP_STATE:" >>.dep.inc; \
+	    echo ".KEEP_STATE_FILE:.make.state.\${CONF}" >>.dep.inc; \
+	fi
+#echo "=> Running .build-impl... Configuration=Debug"
+"/Library/Developer/CommandLineTools/usr/bin/make" -f nbproject/Makefile-Debug.mk QMAKE= SUBPROJECTS= .build-conf
+ 
+make[1]: Entering directory `/Users/nguyenquocquy/Documents/203_Semester/203_Data Structures and Algorithms /1852704'
+ 
+nbproject/Makefile-Debug.mk:83: .dep.inc: No such file or directory
+
+"/Library/Developer/CommandLineTools/usr/bin/make"  -f nbproject/Makefile-Debug.mk dist/Debug/GNU-MacOSX/dsastudents_3
+ 
+make[2]: Entering directory `/Users/nguyenquocquy/Documents/203_Semester/203_Data Structures and Algorithms /1852704'
+ 
+mkdir -p build/Debug/GNU-MacOSX/dsacpp
+rm -f "build/Debug/GNU-MacOSX/dsacpp/dsa_main_test.o.d"
+g++    -c -g -Idsacpp/include -Idoctest -std=c++11 -MMD -MP -MF "build/Debug/GNU-MacOSX/dsacpp/dsa_main_test.o.d" -o build/Debug/GNU-MacOSX/dsacpp/dsa_main_test.o dsacpp/dsa_main_test.cpp
+mkdir -p dist/Debug/GNU-MacOSX
+g++     -o dist/Debug/GNU-MacOSX/dsastudents_3 build/Debug/GNU-MacOSX/dsacpp/dsa_main_test.o 
+ 
+make[2]: Leaving directory `/Users/nguyenquocquy/Documents/203_Semester/203_Data Structures and Algorithms /1852704'
+ 
+make[1]: Leaving directory `/Users/nguyenquocquy/Documents/203_Semester/203_Data Structures and Algorithms /1852704'
+ 
+make: Leaving directory `/Users/nguyenquocquy/Documents/203_Semester/203_Data Structures and Algorithms /1852704'
+ 
